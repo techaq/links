@@ -1,15 +1,96 @@
-
 <!DOCTYPE html>
 <html>
   <head>
     <title> Fatimah Honoré </title>
     <meta charset="utf-8">
     <meta name="author" content="Fatimah Honoré">
+
+    <style>
+
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #faeee7;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+
+      .banner {
+        text-align: center;
+      }
+
+      .banner-image,
+      .thumbnail {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+
+      .name {
+        color: #594a4e;
+        font-size: 30px;
+      }
+
+      .social-icons {
+        display: flex;
+        justify-content: center;
+      }
+
+      .social-icons a {
+        color: #33272a;
+        text-decoration: none;
+        padding: 20px 15px;
+        border-radius: 20px;
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      .social-icons a:hover {
+        background-color: #33272a;
+        color: #ff8ba7;
+      }
+
+     
+    </style>
+    
   </head>
 
   <body>
-    <h1> My link in bio </h1>
-    <img src="/thumbnails/headshot.jpg" alt="Fatimah Honoré's headshot">
+   <div class="items"> 
+    <div class="banner"> 
+    <img src="/thumbnails/headshot.jpg" alt="Fatimah Honoré's headshot" class="banner-image">
+    </div>
+
+    <div class="name">
+      Fatimah Honoré
+    </div>
+
+    <div class="social-icons">
+      <a href="https://github.com/techaq" target="_blank">
+        GitHub
+      </a>
+      <img src="/thumbnails/github.png" alt="GitHub" class="thumbnail">
+
+      <a href="https://www.linkedin.com/in/fatimahhonore/" target="_blank">
+        LinkedIn
+      </a>
+      <img src="/thumbnails/linkedin.jpg" alt="LinkedIn" class="thumbnail">
+
+      <a href="https://www.instagram.com/aisha.innovates" target="_blank">
+        Instagram
+      </a>
+      <img src="/thumbnails/instagram.jpg" alt="Instagram" class="thumbnail">
+    </div>
+  </div>
 
   </body>
 </html>
